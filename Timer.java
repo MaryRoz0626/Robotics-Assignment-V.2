@@ -16,5 +16,8 @@ public class Timer {
             return;
         }
         opModeIsActive = false;
+        void telemetry(){
+        System.out.println("Time Elapsed" + timeElapsed);   
+        }
     }
 }
